@@ -6,7 +6,6 @@ def palavra_secreta():
         P = []
         for Palavra in arquivo:
             P.append(Palavra)
-        arquivo.close()
     Palavras = choice(P)
     Letras = []
     # Aqui será gerado as palavras separadamentes para iniciar 
